@@ -27,10 +27,10 @@ export default function LoginPage() {
   }
 
   return (
-    <main className="flex min-h-screen items-center justify-center bg-albar-100">
+    <main className="flex min-h-screen items-center justify-center bg-albar-100 px-4">
       <form
         onSubmit={handleSubmit}
-        className="w-full max-w-sm rounded-lg border border-albar-200 bg-white p-8 shadow-sm"
+        className="w-full max-w-sm rounded-lg border border-albar-200 bg-white p-6 shadow-sm sm:p-8"
       >
         <h1 className="mb-1 text-xl font-bold text-albar-800">Portal Moderno</h1>
         <p className="mb-6 text-sm text-albar-600">Ingresa con tu cuenta de Grupo Albar</p>
