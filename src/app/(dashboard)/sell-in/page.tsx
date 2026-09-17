@@ -45,8 +45,8 @@ export default async function SellInPage() {
         Avance vs. meta por cliente — {mesLabel(periodo)}. La meta de Superpet es la regional de Lima.
       </p>
 
-      <div className="overflow-hidden rounded-lg border border-albar-200 bg-white">
-        <table className="w-full text-sm">
+      <div className="overflow-x-auto rounded-lg border border-albar-200 bg-white">
+        <table className="w-full min-w-[560px] text-sm">
           <thead className="bg-albar-50 text-left text-xs uppercase tracking-wide text-albar-500">
             <tr>
               <th className="px-4 py-3">Cliente</th>
